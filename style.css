@@ -26,11 +26,6 @@ text-decoration: none;
 padding: 15px;
 }
 
-a:hover {
-  background-color: #B61706;
-/*  opacity: 0.6;*/
-}
-
 li {
     display: inline;
     padding: 20px;
@@ -65,11 +60,13 @@ img {
   color: white;
   border-radius: 5px;
 }
-
+.btn:hover {
+  background-color: #B61706;
+}
 .footer {
   width: 100%;
   margin: 0;
-  color: #B61706;
+/*  color: #B61706;*/
 }
 
 @media (max-width: 960px) {
