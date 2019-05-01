@@ -9,10 +9,10 @@ padding: 50px;
 }
 
 h2 {
-  color: red;
+  color: #B61706;
 }
 h1 {
-color: #0FACF3;
+color: #B61706;
 }
 
 p {
@@ -24,11 +24,11 @@ a {
 color:  #0FACF3;
 text-decoration: none;
 padding: 15px;
-color: #0FACF3;
 }
 
 a:hover {
-  opacity: 0.6;
+  background-color: #B61706;
+/*  opacity: 0.6;*/
 }
 
 li {
@@ -53,6 +53,7 @@ img {
   text-align: center;
   padding: 30px;
   border: 1px solid lightgrey;
+  background-color: #F6F6F3;
 }
 .container {
   margin: 0 auto;
@@ -60,7 +61,7 @@ img {
 }
 
 .btn {
-  background-color: #0FACF3;
+  background-color: #2B2B28;
   color: white;
   border-radius: 5px;
 }
@@ -68,6 +69,7 @@ img {
 .footer {
   width: 100%;
   margin: 0;
+  color: #B61706;
 }
 
 @media (max-width: 960px) {
